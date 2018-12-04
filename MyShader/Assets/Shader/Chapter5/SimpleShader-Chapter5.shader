@@ -1,6 +1,6 @@
 ﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
-Shader "Chapter5/SimpleShader-Chapter5"
+Shader "MyShader/Chapter5/SimpleShader-Chapter5"
 {
 	Properties{
 		_Color ("Color Tint", Color) = (1.0, 1.0, 1.0, 1.0)
@@ -50,4 +50,6 @@ Shader "Chapter5/SimpleShader-Chapter5"
 			ENDCG
 		}
 	}
+
+	Fallback "Diffuse"
 }
