@@ -2,7 +2,7 @@
 
 // Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
 
-Shader "MyShader/Chapt7/SingleTexture"
+Shader "MyShader/Chapter6/SingleTexture"
 {
 	Properties{
 		_Color ("Color Tint", Color) = (1, 1, 1, 1)
