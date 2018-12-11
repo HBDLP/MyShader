@@ -53,13 +53,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Shader\Chapter5\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Shader\Chapter8\NewBehaviourScript.cs" />
      <None Include="Assets\Shader\Chapter5\SimpleShader-Chapter5.shader" />
+     <None Include="Assets\Shader\Chapter5\SpecularPixel-Chapter6.shader" />
+     <None Include="Assets\Shader\Chapter7\MaskTexure-Chapter7.shader" />
      <None Include="Assets\Shader\Chapter5\Example.shader" />
      <None Include="Assets\Shader\Chapter5\DiffusePixel-Chapter6.shader" />
+     <None Include="Assets\Shader\Chapter7\NormalMapTangentSpace-Chapter7.shader" />
      <None Include="Assets\Shader\Chapter5\DiffuseVertex-Chapter6.shader" />
+     <None Include="Assets\Shader\Chapter7\RampTexture-Chapter7.shader" />
+     <None Include="Assets\Shader\Chapter7\NormalMapWorldSpace-Chapter7.shader" />
      <None Include="Assets\Shader\Chapter5\SpecularVertex-Chapter6.shader" />
      <None Include="Assets\Shader\Chapter5\HalfLambert-Chapter6.shader" />
+     <None Include="Assets\Shader\Chapter7\SingleTexture-Chapter7.shader" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>G:/Code/Unity/MyShader/MyShader/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
