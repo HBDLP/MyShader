@@ -53,10 +53,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Shader\Chapter8\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Shader\Chapter8\AlphaBlend-Chapter8.cs" />
      <None Include="Assets\Shader\Chapter5\SimpleShader-Chapter5.shader" />
      <None Include="Assets\Shader\Chapter5\SpecularPixel-Chapter6.shader" />
      <None Include="Assets\Shader\Chapter7\MaskTexure-Chapter7.shader" />
+     <None Include="Assets\Shader\Chapter8\AlphaTest-Chapter8.shader" />
      <None Include="Assets\Shader\Chapter5\Example.shader" />
      <None Include="Assets\Shader\Chapter5\DiffusePixel-Chapter6.shader" />
      <None Include="Assets\Shader\Chapter7\NormalMapTangentSpace-Chapter7.shader" />
