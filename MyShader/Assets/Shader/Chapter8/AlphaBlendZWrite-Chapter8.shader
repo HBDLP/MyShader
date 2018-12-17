@@ -8,6 +8,7 @@
 	SubShader{
 		Tags {"Queue" = "Transparent" "IgnoreProjector" = "True" "RenderType" = "Transparent"}
 		Pass{
+			
 			ZWrite On
 			ColorMask 0
 		}
