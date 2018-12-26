@@ -79,6 +79,8 @@ Shader "MyShader/Chapter9/AttenuationAndShadowUseBuildInFunctions-Chapter9"{
 				// fixed atten = 1.0;
 				// fixed shadow = SHADOW_ATTENUATION(i);
 				UNITY_LIGHT_ATTENUATION(atten, i, i.worldPos);
+				
+
 				return fixed4(ambient + (diffuse + specular) * atten, 1);
 			}
 			ENDCG

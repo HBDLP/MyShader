@@ -76,10 +76,11 @@ Shader "MyShader/Chapter9/Shadow-Chapter9"{
 				fixed3 halfDir = normalize(worldLightDir + viewDir);
 				fixed3 specular = _LightColor0.rgb * _Specular * pow(saturate(dot(halfDir, worldNormal)), _Gloss);
 
-				fixed atten = 1.0;
-				fixed shadow = SHADOW_ATTENUATION(i);
+				// fixed atten = 1.0;
+				// fixed shadow = SHADOW_ATTENUATION(i);
+				UNITY_LIGHT_ATTENUATION(atten, i, i.worldPos);
 
-				return fixed4(ambient + (diffuse + specular) * atten *shadow, 1);
+				return fixed4(ambient + (diffuse + specular) * atten, 1);
 			}
 			ENDCG
 		}
